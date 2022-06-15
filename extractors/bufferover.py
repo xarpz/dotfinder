@@ -1,4 +1,3 @@
-from webbrowser import get
 import requests
 
 def get_bufferover(domain):
