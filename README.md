@@ -22,6 +22,8 @@ Run this to install:
  
 ```sh
 $ git clone https://github.com/Miguel-Galdin0/dotfinder.git
+$ cd dotfinder
+$ pip3 install -r requirements.txt
 ```
 
 # Usage
