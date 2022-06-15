@@ -1,9 +1,15 @@
 import requests
+import os
+import sys
 import yaml
 from yaml import Loader
 
 def get_virustotal(domain):
-    yaml_file = open('extractors/apiKeys/keys.yaml', 'r')
+    if os.path.dirname(sys.argv[0]) == "":
+        dir = ""
+    else:
+        dir = f"{os.path.dirname(sys.argv[0])}/"
+    yaml_file = open(f'{dir}extractors/apiKeys/keys.yaml', 'r')
     data = yaml.load(yaml_file, Loader=Loader)
     apikey = data['virustotal']
     list = []
