@@ -1,4 +1,3 @@
-from http.client import EXPECTATION_FAILED
 import requests
 import yaml
 from yaml import Loader
