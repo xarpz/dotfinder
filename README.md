@@ -50,6 +50,6 @@ $ python3 dotfinder.py -h
 
 | Feature  | Descripition             |
 | -------- | ------------------------ |
-| Pipeline | - From I/O module (`echo "hackerone.com" | python3 dotfinder.py -d pipe`) |
+| Pipeline | - From I/O module (`echo "hackerone.com" \| python3 dotfinder.py -d pipe`) |
 | Silet mode | - Show only the subdomains with flags `-s` or `--silet` (`python3 dotfinder.py -d hackerone.com -s`) |
 | Auto HTTP remove | - If you use a url with `http://` or `https://`, the tool automatically remove this.|
