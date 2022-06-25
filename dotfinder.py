@@ -98,6 +98,9 @@ def main ():
 
   except KeyboardInterrupt:
     print("\033[31m[-]\033[m Program exiting!")
+    
+  except Exception:
+      pass
 
   if args.silent != True:
     print(f"\033[32m[+]\033[m {len(list)} subdomains found from {domain}!")
