@@ -17,6 +17,14 @@ dotfinder is a python tool to find subdomains!
 
 ---
 
+# Features
+
+| Feature  | Descripition             |
+| -------- | ------------------------ |
+| Pipeline | - From I/O module (`echo "hackerone.com" \| python3 dotfinder.py -d pipe`) |
+| Silet mode | - Show only the subdomains with flags `-s` or `--silent` (`python3 dotfinder.py -d hackerone.com -s`) |
+| Auto HTTP remove | - If you use a url with `http://` or `https://`, the tool automatically remove this.|
+
 # Installation
 
 Run this to install:
@@ -42,6 +50,11 @@ Exemple:
 
 To make your enumeration most powerfull, you can add a <a href="https://developers.virustotal.com/reference/overview">VirusTotal API key</a> in <a href="extractors/apiKeys/keys.yaml">keys.yaml</a>.
 
+keys.yaml:
+```sh
+virustotal: "APIKey here"
+```
+
 # Commands
 
 Use this if you need help with commands:
@@ -50,10 +63,3 @@ Use this if you need help with commands:
 $ python3 dotfinder.py -h
 ```
 
-# Features
-
-| Feature  | Descripition             |
-| -------- | ------------------------ |
-| Pipeline | - From I/O module (`echo "hackerone.com" \| python3 dotfinder.py -d pipe`) |
-| Silet mode | - Show only the subdomains with flags `-s` or `--silent` (`python3 dotfinder.py -d hackerone.com -s`) |
-| Auto HTTP remove | - If you use a url with `http://` or `https://`, the tool automatically remove this.|
