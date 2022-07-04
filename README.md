@@ -10,6 +10,7 @@ dotfinder is a python tool to find subdomains!
 <p align="center">
   • <a href="#installation">Installation</a>
   • <a href="#usage">Usage</a>
+  • <a href="#api-keys">Api Keys</a>
   • <a href="#commands">Commands</a>
   • <a href="#features">Features</a>
 </p>
@@ -37,6 +38,9 @@ Exemple:
 
 <img src="/images/exemple.png" alt="dotfinder" width="700px"></a>
 
+# API Keys
+
+To make your enumeration most powerfull, you can add a <a href="https://developers.virustotal.com/reference/overview">VirusTotal API key</a> in <a href="extractors/apiKeys/keys.yaml">keys.yaml</a>.
 
 # Commands
 
