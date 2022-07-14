@@ -40,7 +40,7 @@ $ pip3 install -r requirements.txt
 ```sh
 $ python3 dotfinder.py [-d DOMAIN] [opitional commands]
 ```
-You can use `url` or <a href="#features">pipe</a> to enumerate.
+You can use `domain` or <a href="#features">pipe</a> to enumerate.
 
 Exemple:
 
