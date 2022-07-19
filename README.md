@@ -8,11 +8,12 @@ dotfinder is a python tool to find subdomains!
 </h4>
 
 <p align="center">
+  • <a href="#features">Features</a>
   • <a href="#installation">Installation</a>
   • <a href="#usage">Usage</a>
   • <a href="#api-keys">Api Keys</a>
   • <a href="#commands">Commands</a>
-  • <a href="#features">Features</a>
+  
 </p>
 
 ---
